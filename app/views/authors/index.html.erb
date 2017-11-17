@@ -1,0 +1,14 @@
+<div id="author-index">
+  <h1>Authors List</h1>
+    <div class="author-container">
+      <% @authors.each do |author|%>
+      <div class="author-names">
+          <br>
+          <p><%=author.name%></p>
+          <button class="button" type="button" name="button"><%= link_to 'Delete', author, method: 'delete', local: true%></button>
+          <button class="button" type="button" name="button"><%= link_to 'View Books', author%></button>
+          </div>
+          <br>
+      <% end %>
+    </div>
+</div>

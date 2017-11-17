@@ -1,0 +1,13 @@
+<div id="author-new">
+  <h1>Add an Author</h1>
+
+  <%= form_with(model: @author, local: true) do |f| %>
+    <%= f.label :name %>
+    <br>
+    <%= f.text_field :name %>
+    <br>
+    <%= f.submit %>
+  <% end %>
+
+  <%= link_to 'Back', authors_path %>
+</div>

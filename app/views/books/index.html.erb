@@ -1,0 +1,16 @@
+<div id="books-index">
+
+  <h1>All of Your Books</h1>
+
+  <div class="books-container">
+      <% @books.each do |book|%>
+        <div class="books">
+          <p><%=book.title%> </p>
+          <button class="button" type="button" name="button"><%= link_to 'Delete', book, method: 'delete', local: true%></button>
+          <button class="button" type="button" name="button"><%= link_to 'Details', book %></button>
+        </div>
+      <% end %>
+
+  </div>
+
+</div>

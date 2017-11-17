@@ -1,0 +1,17 @@
+<div id="book-show">
+  <h1><%= @book.title %></h1>
+<p>Author: <%= @book.author.name %></p>
+
+<div>
+  <h3>Tags</h3>
+  <ul>
+    <% @book.tags.each do |tag| %>
+      <li> <%= tag.name %></li>
+    <% end %>
+  </ul>
+
+</div>
+
+<button class="button" type="button" name="button"><%= link_to 'Delete', @book, method: 'delete', local: true %></button>
+<button class="button" type="button" name="button"><%= link_to 'Back', @book.author %></button>
+</div>
