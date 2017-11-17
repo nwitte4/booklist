@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+At all times I have about 10 book lists: 2 on separate places in my phone, 2 in separate places in my computer, 3 physically written down somewhere and 1 in my head.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This takes all my book-listing needs and compiles it into one application *and* I can tag books as recommendable.
